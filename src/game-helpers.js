@@ -2,7 +2,6 @@ export function checkGuess(guess, answer) {
   if (!guess) {
     return null;
   }
-
   const guessChars = guess.toUpperCase().split('');
   const answerChars = answer.split('');
 
